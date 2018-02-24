@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="Nav my-4 text-center">
+        <button class="Nav__home-btn btn btn-secondary">Back to Users</button>
+        <button class="Nav__sort-btn btn btn-success">Sort by Title</button>
+    </nav>
+    <div class="container">
+        <div class="Users">
+
+        </div>
+        <div class="Posts">
+            <form class="Posts__add-post">
+                <h4>Add Post</h4>
+                <div class="form-group">
+                    <label for="post_title">Post Title:</label>
+                    <input type="text" class="form-control" id="post_title">
+                </div>
+                <div class="form-group">
+                    <label for="post_body">Post Title:</label>
+                    <textarea type="text" class="form-control" id="post_body"></textarea>
+                </div>
+                <input type="submit" value="Submit Post" class="btn btn-primary Posts__add-post--submit">
+            </form>
+        </div>
+    </div>
+
+
+
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

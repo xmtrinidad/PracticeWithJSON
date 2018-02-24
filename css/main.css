@@ -1,0 +1,16 @@
+.Users, .Posts {
+    display: grid;
+    grid-gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .Users, .Posts {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1200px) {
+    .Users, .Posts {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
